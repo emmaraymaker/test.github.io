@@ -1,0 +1,58 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after
+{
+	box-sizing: inherit;
+}
+
+
+
+body {
+	
+	background-image: url("https://svs.gsfc.nasa.gov/vis/a010000/a011300/a011327/GJ504_Stars.jpg");
+	background-color: linear-gradient(grey, white);
+	/*background: linear-gradient(grey, white);*/
+	position: relative;
+	margin: 0;
+	padding-bottom: 6rem;
+	min-height: 100%;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	color: white;
+}
+
+
+
+
+
+
+.demo {
+	background-color: linear-gradient(grey, white);
+	margin: 0 auto;
+	padding-top: 64px;
+	max-width: 640px;
+	width: 94%;
+}
+
+.demo h1 {
+	margin-top: 0;
+}
+
+/**
+ * Footer Styles
+ */
+ 
+ .footer {
+	 position: absolute;
+	 right: 0;
+	 bottom: 0;
+	 left: 0;
+	 padding: 1rem;
+	 background-color: #efefef;
+	 text-align: center;
+	 color: black;
+}
